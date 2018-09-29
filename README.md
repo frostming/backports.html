@@ -22,4 +22,4 @@ except ImportError:
 Licence
 -------
 
-MIT License, see [LICENSE](/LICENSE) for more details.
+This project is released under the same license as Python software, see [LICENSE](/LICENSE) for more details.

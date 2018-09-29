@@ -9,7 +9,7 @@ EMAIL = 'mianghong@gmail.com'
 URL = 'https://github.com/frostming/backports.html'
 
 NAME = 'backports.html'
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 
 here = os.path.dirname(__file__)
 readme = open(os.path.join(here, 'README.md')).read()
@@ -24,13 +24,11 @@ setup(
     author=AUTHOR,
     author_email=EMAIL,
     url=URL,
-    license='MIT',
     packages=find_packages(exclude=('tests',)),
     test_suite='tests',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
     ],
